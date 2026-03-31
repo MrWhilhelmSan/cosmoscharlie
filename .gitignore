@@ -1,0 +1,15 @@
+# Entornos y modelos locales (GB; GitHub no los admite bien)
+vision_env/
+eagle_model/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+
+# Salidas de prueba / artefactos accidentales
+test_gpu_output.txt
+=0.26.0

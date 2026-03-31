@@ -1,0 +1,12 @@
+# visiocharlie.py - Analista Forense Visual (Eagle2.5-8B + Flash Attention 2)
+# Activar vision_env antes: source vision_env/bin/activate
+
+torch>=2.0.0
+torchvision  # con PyTorch nightly cu128: pip install --pre torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+transformers>=4.55.0
+gradio>=6.9.0
+Pillow>=10.0.0
+pymupdf>=1.24.0
+peft>=0.10.0
+decord>=0.6.0
+# flash-attn: instalar aparte si hace falta (ya compilado en tu sistema)
